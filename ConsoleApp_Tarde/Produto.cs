@@ -23,13 +23,33 @@ namespace ConsoleApp_Tarde
         { 
             return Id; 
         }
-        public string get.Descricao()
+
+        public void setId(int id)
+        {
+            Id = id;
+        }
+
+        public string getDescricao()
         {
             return Descricao;
         }
+
+        public void setDescricao (string descricao)
+        {
+            Descricao =descricao;
+        }
+
         public decimal getValor()
         {
             return Valor;
+        }
+
+        public void setValor(decimal valor)
+        {
+            if (valor > 0)
+            {
+                Valor = valor;
+            } 
         }
     }
 }
