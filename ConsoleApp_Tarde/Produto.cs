@@ -18,5 +18,18 @@ namespace ConsoleApp_Tarde
             Descricao = descricao;
             Valor = valor;
         }
+
+        public int getId()
+        { 
+            return Id; 
+        }
+        public string get.Descricao()
+        {
+            return Descricao;
+        }
+        public decimal getValor()
+        {
+            return Valor;
+        }
     }
 }
